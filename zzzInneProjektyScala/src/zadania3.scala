@@ -3,27 +3,7 @@
 class zadania3 {
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
  //potegowanie efektywne 
   
   def potega2 (x:Float, n:Int) = {
