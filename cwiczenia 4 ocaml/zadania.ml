@@ -41,7 +41,7 @@ let rec nodes = function
 
 
 
-let bfs tree = 
+let breadthBT tree = 
 	let rec helper list=
 		match list with
 		| [] -> []
@@ -51,7 +51,7 @@ let bfs tree =
 
 
 
-bfs tt;;
+breadthBT tt;;
 
 
 
