@@ -76,7 +76,7 @@ Node(1,
   
   def dlugoscWewnetrznej [A](tree:BT[A]) ={
     
-    def licz [A](tree:BT[A], glebokosc:Int):Int =
+    def licz (tree:BT[A], glebokosc:Int):Int =
       tree match {
       case Empty => 0
       case Node(root, left, right) => glebokosc + licz(left, glebokosc+1) + licz(right, glebokosc+1)
@@ -94,7 +94,7 @@ Node(1,
   
   
   def dlugoscZew [A](tree:BT[A]) = {
-	 def licz [A](tree:BT[A], glebokosc:Int):Int =
+	 def licz (tree:BT[A], glebokosc:Int):Int =
 		tree match {
 	   case Empty => glebokosc
 	   case Node(root, l, r) =>  licz (l, glebokosc+1) + licz (r, glebokosc+1)
