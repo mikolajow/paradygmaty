@@ -19,6 +19,7 @@ class zadania {
   
   
   def potega1 ( x:Float, n:Int ):Float ={
+    
     def licz(wynik:Float,  podstawa:Float, n:Int):Float =
       n match {
       case 0 => wynik
@@ -31,7 +32,6 @@ class zadania {
   
   
     potega1 (2, 12)
-  
   
   
   
