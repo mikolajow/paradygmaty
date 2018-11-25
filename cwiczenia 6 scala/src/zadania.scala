@@ -63,16 +63,7 @@ def swap (tab:Array[Int], i:Int, j:Int) = {
   a
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
