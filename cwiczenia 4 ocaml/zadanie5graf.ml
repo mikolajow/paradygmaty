@@ -16,15 +16,9 @@ in search [] [startNode];;
 
 
 
-
-
-
-
-
-
 let g = Graph
 (function
-0 -> [3]
+| 0 -> [3]
 | 1 -> [0;2;4]
 | 2 -> [1]
 | 3 -> []

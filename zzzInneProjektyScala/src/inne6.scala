@@ -49,8 +49,8 @@ def doModulo (n:Int, s:Stream[Int]):Stream[Int] =
     (toDo, s) match {
     case (_, Stream.Empty) => Stream.empty
     case (Stream.Empty, _) => Stream.empty
-    case (wez#::pomin#::t, original) => original.take(wez)#:::lSegments(t, original.drop(wez+pomin))
     case (wez#::Stream.Empty, original) => original.take(wez)
+    case (wez#::pomin#::t, original) => original.take(wez)#:::lSegments(t, original.drop(wez+pomin))
   }//koniec match
   
   

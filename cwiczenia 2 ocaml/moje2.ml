@@ -12,11 +12,11 @@ fibbo 9;;
 
 
 let fibo n =
-	let rec licz nn poprzednia poprzedniejsza =
+	let rec licz nn p pp =
 		if nn==0 then 0
 		else if nn == 1 then 1
-		else if nn==n then poprzednia+poprzedniejsza
-		else licz (nn+1) (poprzednia + poprzedniejsza) poprzednia
+		else if nn==n then p+pp
+		else licz (nn+1) (p + pp) p
 	in licz 2 1 0 ;;
 
 
@@ -70,7 +70,7 @@ let rec initSegment (lista1,lista2) =
 
 let rec replaceNth (xs,n,e) =
 	match (xs,n) with
-	| (_,x) when x<0 -> xs
+	| (_,n) when n<0 -> xs
 	| ([],_) -> []
 	| (h::t,0) -> e::t
 	| (h::t,_)-> h::replaceNth(t,n-1,e);;

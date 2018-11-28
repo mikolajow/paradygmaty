@@ -1,15 +1,8 @@
 
 
-
-
-
-
-
-
-
+(* ZADANIE 1 *)
 
 let m = Array.init 4 (function i -> Array.make 4 0);;
-
 
 let wypelnij a = 
 	let aLength = Array.length(a)-1
@@ -24,6 +17,7 @@ wypelnij m;;
 m;;
 
 
+
 let wypisz a = 
 	let aLength = Array.length(a)-1
 	and iLength = Array.length(a.(0))-1 in
@@ -32,14 +26,11 @@ let wypisz a =
 		for j=0 to iLength do print_int a.(i).(j); print_string "," done;
 		print_endline "" done;;
 
-
-
-
 wypisz m;;
 
 
 
-
+(* ZADANIE 2 *)
 
 
 

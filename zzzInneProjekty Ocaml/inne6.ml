@@ -24,18 +24,22 @@ ltake (20,  lSpec (lfrom 1));;
 
 
 
+type 'a lSpe = LNi | LCon of int * int* (unit -> 'a lSpe);;
+
+
+let rec lfro k n = LCon (k, n, function () -> match n with
+| 0 -> lfro (k+1) (k)
+| _ -> lfro k (n-1));;
+
+
+let rec ltak = function
+| (0, _) -> []
+| (_, LNi) -> []
+| (n, LCon(x,a,xf)) -> x::ltak(n-1, xf());;
 
 
 
-
-
-
-
-
-
-
-
-
+ltak (20, lfro 1 0);;
 
 
 
