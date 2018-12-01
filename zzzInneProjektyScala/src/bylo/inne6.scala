@@ -1,3 +1,8 @@
+package bylo
+
+import scala.Stream
+import scala.collection.immutable.Stream.consWrapper
+
 class inne6 {
   
 
