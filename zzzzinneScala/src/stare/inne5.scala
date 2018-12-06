@@ -1,4 +1,6 @@
 
+package stare
+
 class inne5 {
 
   
