@@ -1,5 +1,3 @@
 package theOne;
 
-public class EmptyException extends Exception{
-
-}
+public class EmptyException extends Exception{}

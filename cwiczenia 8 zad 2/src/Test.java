@@ -42,6 +42,7 @@ public class Test
        argModyfikowalny(niemodyfikowalna);
         System.out.println(niemodyfikowalna.zawartość); // wynik to 1 
         
+        
         /*
         java uzywa przekazywania przez wartosc to znaczy ze do funkcji przekazujemy kopje referencji do objektu
         final Test niem = new Test(); tworzy niemodyfikowalna referencje, co nie znaczy jednak ze objekt jest 
