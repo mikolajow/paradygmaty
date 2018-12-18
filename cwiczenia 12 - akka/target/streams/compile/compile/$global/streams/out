@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Users\mikol\workspace\cwiczenia 12 - akka\src\main\scala\com\example\AkkaQuickstart.scala:27:26: value shutdown is not a member of akka.actor.ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m          context.system.shutdown[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

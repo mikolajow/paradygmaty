@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Users\mikol\workspace\cwiczenia 12 - akka- zadanie 2\src\main\scala\com\example\AkkaQuickstart.scala:23:5: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: ?[0m
+[0m[[0m[31merror[0m] [0m[0m    {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\mikol\workspace\cwiczenia 12 - akka- zadanie 2\src\main\scala\com\example\AkkaQuickstart.scala:27:24: value name is not a member of object com.example.Main[0m
+[0m[[0m[31merror[0m] [0m[0m          println(this.name)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\mikol\workspace\cwiczenia 12 - akka- zadanie 2\src\main\scala\com\example\AkkaQuickstart.scala:39:11: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m          context.system.terminate[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\mikol\workspace\cwiczenia 12 - akka- zadanie 2\src\main\scala\com\example\AkkaQuickstart.scala:21:3: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m  {[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
